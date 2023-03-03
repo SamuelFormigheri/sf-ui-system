@@ -6,7 +6,7 @@
   "scripts": {
     "deploy-storybook": "storybook-to-ghpages",
     "dev": "set NODE_OPTIONS=--openssl-legacy-provider && start-storybook -p 6006",
-    "build": "build-storybook"
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && build-storybook"
   },
   "keywords": [],
   "author": "Samuel Formigheri",
