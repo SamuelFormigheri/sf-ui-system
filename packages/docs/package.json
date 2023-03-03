@@ -1,0 +1,38 @@
+{
+  "name": "@sf-ui-system/docs",
+  "version": "1.0.0",
+  "description": "Docs of sf-ui-system",
+  "main": "index.js",
+  "scripts": {
+    "deploy-storybook": "storybook-to-ghpages",
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && start-storybook -p 6006",
+    "build": "build-storybook"
+  },
+  "keywords": [],
+  "author": "Samuel Formigheri",
+  "license": "MIT",
+  "dependencies": {
+    "@sf-ui-system/eslint": "*",
+    "@sf-ui-system/react": "*",
+    "@sf-ui-system/tokens": "*",
+    "@sf-ui-system/ts": "*",
+    "@storybook/addon-a11y": "^6.5.16",
+    "polished": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-vite": "^0.4.2",
+    "@storybook/react": "^6.5.16",
+    "@storybook/storybook-deployer": "^2.8.16",
+    "@storybook/testing-library": "^0.0.13",
+    "@vitejs/plugin-react": "^3.1.0",
+    "babel-loader": "^8.3.0",
+    "vite": "^4.1.4"
+  }
+}

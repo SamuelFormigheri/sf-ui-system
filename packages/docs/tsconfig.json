@@ -1,0 +1,6 @@
+{
+    "extends": "@sf-ui-system/ts/react.json",
+    "include": [
+        "src"
+    ]
+}

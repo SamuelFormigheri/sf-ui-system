@@ -1,0 +1,6 @@
+{
+  "extends": "@sf-ui-system/ts/base.json",
+  "include": [
+    "src"
+  ]
+}
